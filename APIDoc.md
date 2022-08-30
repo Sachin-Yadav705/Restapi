@@ -4,38 +4,38 @@
 
 # List of city
 
-http://localhost:9092/location
+https://api-for-zomato.herokuapp.com/location
 
 # List of Restaurant
 
-http://localhost:9092/resturantdata
+https://api-for-zomato.herokuapp.com/resturantdata
 
 # Restaurant wrt City
 
-> http://localhost:9092/resturantdata?stateid=2
+https://api-for-zomato.herokuapp.com/resturantdata?stateid=2
 
 # List of QuickSearch
 
-> http://localhost:9092/mealtype
+https://api-for-zomato.herokuapp.com/mealtype
 
 //Page 2
 
 # Restaurant wrt Meal
 
-> http://localhost:9092/resturantdata?mealid=5
+https://api-for-zomato.herokuapp.com/resturantdata?mealid=5
 
 # Restaurant wrt Meal & cuisine
 
-> http://localhost:9092/filter/1?cuisineid=2
+https://api-for-zomato.herokuapp.com/filter/1?cuisineid=2
 
 # Restaurant wrt Meal & cost
 
-> http://localhost:9092/filter/1?lcost=400&hcost=12000
-> http://localhost:9092/filter/1?lcost=400&hcost=900&cuisineid=4
+https://api-for-zomato.herokuapp.com/filter/1?lcost=400&hcost=12000
+https://api-for-zomato.herokuapp.com/filter/1?lcost=400&hcost=900&cuisineid=4
 
 # Sort on basis of cost
 
-> http://localhost:9092/filter/1?lcuisineid=4&sort=-1
+https://api-for-zomato.herokuapp.com/filter/1?lcuisineid=4&sort=-1
 
 //Page3
 
@@ -43,13 +43,14 @@ http://localhost:9092/resturantdata
 
 //On The Basic Of Object Id
 
-> http://localhost:9092/resturantdetails/62c726de1050b3aaad588b27
+https://api-for-zomato.herokuapp.com/resturantdetails/62c726de1050b3aaad588b27
+
 > //On The Basic Of resturant Id
-> http://localhost:9092/resturantdetails/4
+> https://api-for-zomato.herokuapp.com/resturantdetails/4
 
 # Menu of the Restaurants
 
-> http://localhost:9092/menu/3
+https://api-for-zomato.herokuapp.com/menu/3
 
 //Page4
 
@@ -81,9 +82,16 @@ http://localhost:9092/resturantdata
 
 # List of order place
 
+https://api-for-zomato.herokuapp.com/orderdetail
+
 # List of order place wrt to email
+
+https://api-for-zomato.herokuapp.com/orderview/sachin@gmail.com
 
 # update order details with payment
 
-///////
-Delete order
+https://api-for-zomato.herokuapp.com/updateorder/3 (PUT)
+
+# delete orders
+
+https://api-for-zomato.herokuapp.com/deleteorder/62dab75822f4756528d4fc7a (delete)
